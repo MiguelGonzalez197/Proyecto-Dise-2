@@ -22,6 +22,7 @@ public enum TipoHormonas
 {
     Obstaculo,
     Comida,
-    Peligro
+    Peligro,
+    Normal
 }
 /** </Hormonas> */

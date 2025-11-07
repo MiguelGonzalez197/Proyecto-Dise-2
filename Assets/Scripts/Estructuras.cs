@@ -9,8 +9,8 @@ public struct InformacionHormiga
 }
 
 [System.Serializable]
-public struct InformacionHormonas
+public class InformacionHormonas
 {
-    public int TiempoEvaporacion;
+    public float TiempoEvaporacion;
     public TipoHormonas Tipo;
 }
