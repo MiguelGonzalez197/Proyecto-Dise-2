@@ -4,7 +4,7 @@ public abstract class BaseDatos<TDatos, TUI> : MonoBehaviour
     where TUI : BaseUI<TDatos>
 {
     [SerializeField] 
-    private TDatos informacion;
+    protected TDatos informacion;
     private TUI UI;
 
     private void Awake()

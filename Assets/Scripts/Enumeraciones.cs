@@ -26,3 +26,16 @@ public enum TipoHormonas
     Normal
 }
 /** </Hormonas> */
+
+/** <Comida> */
+public enum TipoComida
+{
+    Ninguno,
+    Semilla,
+    Azucar,
+    Hoja,
+    Insecto,
+    Fruta,
+    Carne
+}
+/** </Comida> */

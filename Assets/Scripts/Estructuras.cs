@@ -14,3 +14,10 @@ public class InformacionHormonas
     public float TiempoEvaporacion;
     public TipoHormonas Tipo;
 }
+
+[System.Serializable]
+public struct InformacionComida
+{
+    public float TiempoEnDesaparecer;
+    public TipoComida Tipo;
+}
