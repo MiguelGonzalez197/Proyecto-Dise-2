@@ -1,30 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Migue\\OneDrive\\Documentos\\GitHub\\Proyecto-Dise-2\\",
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\migue\\onedrive\\documentos\\github\\proyecto-dise-2\\assets\\scripts\\estructuras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\estructuras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\estructuras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\migue\\onedrive\\documentos\\github\\proyecto-dise-2\\assets\\scripts\\datos\\basedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datos\\basedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\Migue\\OneDrive\\Documentos\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\datos\\datoshormonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datos\\datoshormonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\Migue\\OneDrive\\Documentos\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\enumeraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\enumeraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enumeraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\Migue\\OneDrive\\Documentos\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\ui\\baseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\datos\\basedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datos\\basedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\ui\\baseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\baseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\Migue\\OneDrive\\Documentos\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\ui\\ui_infomacionhormona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_infomacionhormona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\datos\\datoshormiga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datos\\datoshormiga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,85 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BaseDatos.cs",
-              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documentos\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\BaseDatos.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Datos\\BaseDatos.cs",
-              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documentos\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\BaseDatos.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Datos\\BaseDatos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "DatosHormiga.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\DatosHormiga.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Datos\\DatosHormiga.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\DatosHormiga.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Datos\\DatosHormiga.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T19:22:26.013Z",
+              "WhenOpened": "2025-11-06T23:05:12.904Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DatosHormonas.cs",
-              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documentos\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\DatosHormonas.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Datos\\DatosHormonas.cs",
-              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documentos\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\DatosHormonas.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Datos\\DatosHormonas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABQAAAAAAAAAA==",
+              "Title": "BaseDatos.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\BaseDatos.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Datos\\BaseDatos.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\BaseDatos.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Datos\\BaseDatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T18:01:27.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UI_InfomacionHormona.cs",
-              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documentos\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\UI_InfomacionHormona.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_InfomacionHormona.cs",
-              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documentos\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\UI_InfomacionHormona.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_InfomacionHormona.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T17:57:10.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BaseUI.cs",
-              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documentos\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\BaseUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\BaseUI.cs",
-              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documentos\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\BaseUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\BaseUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T17:32:24.615Z",
+              "WhenOpened": "2025-11-06T23:05:02.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Estructuras.cs",
-              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documentos\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Estructuras.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Estructuras.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Estructuras.cs",
-              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documentos\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Estructuras.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Estructuras.cs",
               "RelativeToolTip": "Assets\\Scripts\\Estructuras.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T16:41:34.563Z",
+              "WhenOpened": "2025-11-06T23:04:52.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enumeraciones.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Enumeraciones.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enumeraciones.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Enumeraciones.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enumeraciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T23:04:41.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Enumeraciones.cs",
-              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documentos\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Enumeraciones.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enumeraciones.cs",
-              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documentos\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Enumeraciones.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enumeraciones.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAYAAAAAAAAAA==",
+              "Title": "BaseUI.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\BaseUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\BaseUI.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\BaseUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\BaseUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T16:35:54.078Z",
+              "WhenOpened": "2025-11-06T22:58:44.016Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
