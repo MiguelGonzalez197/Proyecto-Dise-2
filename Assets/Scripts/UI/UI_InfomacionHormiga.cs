@@ -1,4 +1,4 @@
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 
 public class UI_InfomacionHormiga : BaseUI<InformacionHormiga>
@@ -16,6 +16,8 @@ public class UI_InfomacionHormiga : BaseUI<InformacionHormiga>
     [SerializeField]
     private TextMeshProUGUI textoOcupacionActual;
 
+    private DatosHormiga hormigaSeleccionada;
+
     public override void MostrarInformacion(InformacionHormiga datos)
     {
         if (!ExisteCanva()) return;
@@ -24,6 +26,21 @@ public class UI_InfomacionHormiga : BaseUI<InformacionHormiga>
         textoEstadoActual.text = "Estado: " + (datos.estadoActual).ToString();
         textoOcupacionActual.text = "Rol: " + (datos.rolActual).ToString();
     }
+        // ✅ NUEVO: Llamado cuando una hormiga es seleccionada
+    public void SeleccionarHormiga(DatosHormiga hormiga)
+    {
+        hormigaSeleccionada = hormiga;
+    }
+
+    private void Update()
+    {
+        // ✅ Si hay hormiga seleccionada → actualizamos su UI en tiempo real
+        if ( hormigaSeleccionada != null )
+        {
+            MostrarInformacion(hormigaSeleccionada.GetInfo());
+        }
+    }
+
 
     protected override bool ExisteCanva()
     { 

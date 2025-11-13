@@ -7,4 +7,5 @@ public class DatosHormiga : BaseDatos<InformacionHormiga, UI_InfomacionHormiga>
         base.OnMouseDown();
         Debug.Log("Hormiga seleccionada: ejecutando lógica adicional...");
     }
+
 }

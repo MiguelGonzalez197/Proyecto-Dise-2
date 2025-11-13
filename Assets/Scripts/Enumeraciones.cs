@@ -22,6 +22,20 @@ public enum TipoHormonas
 {
     Obstaculo,
     Comida,
-    Peligro
+    Peligro,
+    Normal
 }
 /** </Hormonas> */
+
+/** <Comida> */
+public enum TipoComida
+{
+    Ninguno,
+    Semilla,
+    Azucar,
+    Hoja,
+    Insecto,
+    Fruta,
+    Carne
+}
+/** </Comida> */
