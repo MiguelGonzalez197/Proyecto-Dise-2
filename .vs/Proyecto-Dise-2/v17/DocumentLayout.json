@@ -3,23 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\datos\\datoscomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datos\\datoscomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\ui\\baseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\baseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\enumeraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enumeraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\estructuras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\estructuras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\enumeraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enumeraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\datos\\basedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\datos\\basedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datos\\basedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\ui\\baseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\baseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\datos\\datoshormiga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\datos\\datoshormiga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datos\\datoshormiga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,11 +34,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "DatosComida.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\DatosComida.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Datos\\DatosComida.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\DatosComida.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Datos\\DatosComida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T01:33:56.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DatosHormiga.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\DatosHormiga.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Datos\\DatosHormiga.cs",
@@ -47,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BaseDatos.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\BaseDatos.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Datos\\BaseDatos.cs",
@@ -60,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Estructuras.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Estructuras.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Estructuras.cs",
@@ -73,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Enumeraciones.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Enumeraciones.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enumeraciones.cs",
@@ -86,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "BaseUI.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\BaseUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\BaseUI.cs",
@@ -96,10 +117,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T22:58:44.016Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
