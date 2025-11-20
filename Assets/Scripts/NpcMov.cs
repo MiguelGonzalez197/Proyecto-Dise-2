@@ -127,6 +127,18 @@ public class NpcMov : MonoBehaviour
         }
     }
 
+    bool EsComidaGrande(TipoComida tipo)
+    {
+        switch (tipo)
+        {
+            case TipoComida.Carne:
+            case TipoComida.Insecto:
+            case TipoComida.Semilla:
+                return true;  // Comidas grandes
+        }
+        return false; // Las demás son pequeñas
+    }
+
     void ConsumirComida(GameObject comidaObj)
     {
         DatosComida datosComida = comidaObj.GetComponent<DatosComida>();
@@ -143,26 +155,56 @@ public class NpcMov : MonoBehaviour
         // Generar feromona según el tipo de comida
         CrearFeromonaPorComida(info.Tipo, comidaObj.transform.position);
 
-        // Decidir si la hormiga se come la comida o la lleva al hormiguero
-        float probabilidadTransportar = 0.7f; // 70% transporte / 30% consumir
+        //// Decidir si la hormiga se come la comida o la lleva al hormiguero
+        //float probabilidadTransportar = 0.7f; // 70% transporte / 30% consumir
 
-        float decision = Random.value;
+        //float decision = Random.value;
 
-        if (decision < probabilidadTransportar)
+        //if (decision < probabilidadTransportar)
+        //{
+        //    // TRANSPORTAR AL HORMIGUERO
+        //    llevandoComida = true;
+        //    destinoHormiguero = Hormiguero.PuntoHormiguero.position;
+        //    Debug.Log("La hormiga decidió transportar la comida al hormiguero.");
+        //}
+        //else
+        //{
+        //    // COMER EN EL LUGAR
+        //    inf = datos.GetInfo();   // sin "InformacionHormiga"
+        //    inf.vidaActual = Mathf.Min(100, inf.vidaActual + 25); // más recarga si come in situ
+        //    datos.SetInfo(inf);
+
+        //    Debug.Log("La hormiga decidió COMER la comida en el lugar.");
+        //}
+
+        // Si la comida es grande → siempre transportar
+        if (EsComidaGrande(info.Tipo))
         {
-            // TRANSPORTAR AL HORMIGUERO
             llevandoComida = true;
             destinoHormiguero = Hormiguero.PuntoHormiguero.position;
-            Debug.Log("La hormiga decidió transportar la comida al hormiguero.");
+            Debug.Log("Comida grande encontrada. La hormiga la lleva al hormiguero.");
         }
         else
         {
-            // COMER EN EL LUGAR
-            inf = datos.GetInfo();   // sin "InformacionHormiga"
-            inf.vidaActual = Mathf.Min(100, inf.vidaActual + 25); // más recarga si come in situ
-            datos.SetInfo(inf);
+            // Comida pequeña → decisión probabilística
+            float decision = Random.value;
+            float probabilidadTransportar = 0.3f; // 30% transporta / 70% comer en el sitio
 
-            Debug.Log("La hormiga decidió COMER la comida en el lugar.");
+            if (decision < probabilidadTransportar)
+            {
+                llevandoComida = true;
+                destinoHormiguero = Hormiguero.PuntoHormiguero.position;
+                Debug.Log("Comida pequeña, pero la hormiga decidió transportarla.");
+            }
+            else
+            {
+                // COMER EN EL SITIO
+                InformacionHormiga inf2 = datos.GetInfo();
+                inf2.vidaActual = Mathf.Min(100, inf2.vidaActual + 25);
+                datos.SetInfo(inf2);
+
+                Debug.Log("Comida pequeña. La hormiga decidió comerla en el lugar.");
+            }
         }
 
         // Eliminar comida
