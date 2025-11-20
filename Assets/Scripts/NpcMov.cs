@@ -8,6 +8,11 @@ public class NpcMov : MonoBehaviour
     public float cambioDireccion = 30f;
     public int Limitex = 10, Limitey = 10;// cuánto cambia el ángulo en cada frame
 
+    private bool llevandoComida = false;
+    private Vector3 destinoHormiguero;
+    private float tiempoDentro = 2f; // segundos dentro del hormiguero
+    private bool dentroHormiguero = false;
+
     private float angulo = 0f;
     private DatosHormiga datos;
     private SpriteRenderer sr; // Para cambiar el color
@@ -20,6 +25,17 @@ public class NpcMov : MonoBehaviour
 
     void Update()
     {
+        if (dentroHormiguero)
+        {
+            return; // no se mueve mientras está dentro
+        }
+
+        if (llevandoComida)
+        {
+            VolverAlHormiguero();
+            return;
+        }
+
         // Nuevo: detectar comida primero
         DetectarComida();
 
@@ -127,8 +143,27 @@ public class NpcMov : MonoBehaviour
         // Generar feromona según el tipo de comida
         CrearFeromonaPorComida(info.Tipo, comidaObj.transform.position);
 
-        // Registrar evento
-        Debug.Log("Hormiga consumió comida tipo: " + info.Tipo);
+        // Decidir si la hormiga se come la comida o la lleva al hormiguero
+        float probabilidadTransportar = 0.7f; // 70% transporte / 30% consumir
+
+        float decision = Random.value;
+
+        if (decision < probabilidadTransportar)
+        {
+            // TRANSPORTAR AL HORMIGUERO
+            llevandoComida = true;
+            destinoHormiguero = Hormiguero.PuntoHormiguero.position;
+            Debug.Log("La hormiga decidió transportar la comida al hormiguero.");
+        }
+        else
+        {
+            // COMER EN EL LUGAR
+            inf = datos.GetInfo();   // sin "InformacionHormiga"
+            inf.vidaActual = Mathf.Min(100, inf.vidaActual + 25); // más recarga si come in situ
+            datos.SetInfo(inf);
+
+            Debug.Log("La hormiga decidió COMER la comida en el lugar.");
+        }
 
         // Eliminar comida
         Destroy(comidaObj);
@@ -143,17 +178,20 @@ public class NpcMov : MonoBehaviour
             case TipoComida.Semilla:
             case TipoComida.Azucar:
             case TipoComida.Fruta:
+            case TipoComida.Insecto:
+            case TipoComida.Carne:
+            case TipoComida.Hoja:
                 hormona = TipoHormonas.Comida;
                 break;
 
-            case TipoComida.Insecto:
-            case TipoComida.Carne:
-                hormona = TipoHormonas.Peligro;
-                break;
+            //case TipoComida.Insecto:
+            //case TipoComida.Carne:
+            //    hormona = TipoHormonas.Peligro;
+            //    break;
 
-            case TipoComida.Hoja:
-                hormona = TipoHormonas.Normal;
-                break;
+            //case TipoComida.Hoja:
+            //    hormona = TipoHormonas.Normal;
+            //    break;
         }
 
         // Crear objeto feromona mediante tu prefab
@@ -169,6 +207,42 @@ public class NpcMov : MonoBehaviour
         fer.GetComponent<DatosHormonas>().SetInfo(data);
         fer.GetComponent<Hormona>().datos = data;
     }
+
+    void VolverAlHormiguero()
+    {
+        Vector2 direction = (destinoHormiguero - transform.position).normalized;
+        transform.Translate(direction * velocidad * Time.deltaTime, Space.World);
+
+        float anguloRot = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
+        transform.rotation = Quaternion.Euler(0, 0, anguloRot);
+
+        // Si llega al hormiguero
+        if (Vector2.Distance(transform.position, destinoHormiguero) < 0.4f)
+        {
+            StartCoroutine(EntrarAlHormiguero());
+        }
+    }
+    System.Collections.IEnumerator EntrarAlHormiguero()
+    {
+        dentroHormiguero = true;
+
+        // “Entrar”: hacer invisible
+        if (sr != null)
+            sr.enabled = false;
+
+        yield return new WaitForSeconds(2f); // tiempo dentro
+
+        // Salir
+        dentroHormiguero = false;
+        llevandoComida = false;
+
+        if (sr != null)
+            sr.enabled = true;
+
+        // Al salir, la hormiga rota hacia afuera
+        angulo = Random.Range(0f, 360f);
+    }
+
 
 
 }

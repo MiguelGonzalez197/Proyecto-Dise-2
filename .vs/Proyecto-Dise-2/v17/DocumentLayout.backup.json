@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\generadores\\generadorhormona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\generadores\\generadorhormona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\ui\\ui_infomacionhormona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_infomacionhormona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\ui\\ui_informacioncomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_informacioncomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\npcmov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcmov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\hormona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hormona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\datos\\datoshormiga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datos\\datoshormiga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\datos\\datoshormonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datos\\datoshormonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\datos\\basedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datos\\basedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\datos\\datoscomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datos\\datoscomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\generadores\\crearobstaculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\generadores\\crearobstaculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\generadores\\generadorcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\generadores\\generadorcomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\ui\\ui_infomacionhormiga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_infomacionhormiga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,121 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UI_InfomacionHormona.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\UI_InfomacionHormona.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_InfomacionHormona.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\UI_InfomacionHormona.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_InfomacionHormona.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwCYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T20:59:28.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Hormona.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Hormona.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Hormona.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Hormona.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Hormona.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Title": "UI_InformacionComida.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\UI_InformacionComida.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_InformacionComida.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\UI_InformacionComida.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_InformacionComida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:07:08.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DatosComida.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\DatosComida.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Datos\\DatosComida.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\DatosComida.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Datos\\DatosComida.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T02:19:47.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DatosHormiga.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\DatosHormiga.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Datos\\DatosHormiga.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\DatosHormiga.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Datos\\DatosHormiga.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T23:05:12.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BaseDatos.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\BaseDatos.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Datos\\BaseDatos.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\BaseDatos.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Datos\\BaseDatos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T23:05:02.973Z",
+              "WhenOpened": "2025-11-20T20:59:18.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DatosHormonas.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\DatosHormonas.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Datos\\DatosHormonas.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Datos\\DatosHormonas.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Datos\\DatosHormonas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Title": "Hormona.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Hormona.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Hormona.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Hormona.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Hormona.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA3wBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T02:19:25.818Z",
+              "WhenOpened": "2025-11-20T20:57:51.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GeneradorHormona.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Generadores\\GeneradorHormona.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Generadores\\GeneradorHormona.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Generadores\\GeneradorHormona.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Generadores\\GeneradorHormona.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAA1wBkAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "NpcMov.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\NpcMov.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NpcMov.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\NpcMov.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NpcMov.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAywJ0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T02:18:43.328Z",
+              "WhenOpened": "2025-11-20T20:46:37.218Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CrearObstaculos.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Generadores\\CrearObstaculos.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Generadores\\CrearObstaculos.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Generadores\\CrearObstaculos.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Generadores\\CrearObstaculos.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAQwDoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T02:19:12.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GeneradorComida.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Generadores\\GeneradorComida.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Generadores\\GeneradorComida.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Generadores\\GeneradorComida.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Generadores\\GeneradorComida.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAiwFYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T02:19:00.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UI_InfomacionHormiga.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\UI_InfomacionHormiga.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_InfomacionHormiga.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\UI_InfomacionHormiga.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_InfomacionHormiga.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAADwvyIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T02:18:14.775Z"
             }
           ]
         }

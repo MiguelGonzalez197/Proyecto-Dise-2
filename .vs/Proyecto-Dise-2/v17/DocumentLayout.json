@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\enumeraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enumeraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\hormiguero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hormiguero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\ui\\ui_infomacionhormona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_infomacionhormona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\ui\\ui_informacioncomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\hormona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hormona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\ui\\ui_informacioncomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_informacioncomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\npcmov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\assets\\scripts\\npcmov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcmov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|c:\\users\\usuario\\documents\\github\\proyecto-dise-2\\assets\\scripts\\hormona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23F835DC-C0C4-3EAE-5757-33D0AC6B992F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hormona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +39,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UI_InfomacionHormona.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\UI_InfomacionHormona.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_InfomacionHormona.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\UI_InfomacionHormona.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_InfomacionHormona.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAuwCYAAAAFAAAAAAAAAA==",
+              "Title": "Enumeraciones.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Enumeraciones.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enumeraciones.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Enumeraciones.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enumeraciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:59:28.725Z",
+              "WhenOpened": "2025-11-20T21:51:02.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UI_InformacionComida.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\UI_InformacionComida.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_InformacionComida.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\UI_InformacionComida.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_InformacionComida.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Hormiguero.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Hormiguero.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Hormiguero.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Hormiguero.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Hormiguero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:59:18.514Z",
+              "WhenOpened": "2025-11-20T21:25:12.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UI_InfomacionHormona.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\UI_InfomacionHormona.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_InfomacionHormona.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\UI_InfomacionHormona.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_InfomacionHormona.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA8wCYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T20:59:28.725Z",
               "EditorCaption": ""
             },
             {
@@ -62,22 +83,35 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Hormona.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\Hormona.cs",
               "RelativeToolTip": "Assets\\Scripts\\Hormona.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA3wBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T20:57:51.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "NpcMov.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\NpcMov.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NpcMov.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\NpcMov.cs",
               "RelativeToolTip": "Assets\\Scripts\\NpcMov.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAywJ0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAuwJIAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T20:46:37.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UI_InformacionComida.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\UI_InformacionComida.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_InformacionComida.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\GitHub\\Proyecto-Dise-2\\Assets\\Scripts\\UI\\UI_InformacionComida.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_InformacionComida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T20:59:18.514Z",
               "EditorCaption": ""
             }
           ]
