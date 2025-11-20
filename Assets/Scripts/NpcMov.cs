@@ -20,6 +20,9 @@ public class NpcMov : MonoBehaviour
 
     void Update()
     {
+        // Nuevo: detectar comida primero
+        DetectarComida();
+
         InformacionHormiga info = datos.GetInfo();
 
         // Si la hormiga está muerta, no se mueve y cambia color
@@ -74,4 +77,98 @@ public class NpcMov : MonoBehaviour
 
         datos.SetInfo(info);
     }
+
+    void DetectarComida()
+    {
+        float radioPercepcion = 1.5f;
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, radioPercepcion);
+
+        foreach (var h in hits)
+        {
+            DatosComida comida = h.GetComponent<DatosComida>();
+
+            if (comida != null)
+            {
+                // Se encontró comida
+                MoverHaciaComida(comida.gameObject);
+                return;
+            }
+        }
+    }
+
+    void MoverHaciaComida(GameObject comida)
+    {
+        Vector2 direction = (comida.transform.position - transform.position).normalized;
+        transform.Translate(direction * velocidad * Time.deltaTime, Space.World);
+
+        float anguloRot = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
+        transform.rotation = Quaternion.Euler(0, 0, anguloRot);
+
+        // Si está lo suficientemente cerca → comer
+        if (Vector2.Distance(transform.position, comida.transform.position) < 0.3f)
+        {
+            ConsumirComida(comida);
+        }
+    }
+
+    void ConsumirComida(GameObject comidaObj)
+    {
+        DatosComida datosComida = comidaObj.GetComponent<DatosComida>();
+
+        if (datosComida == null) return;
+
+        InformacionComida info = datosComida.GetInfo();
+
+        // Recuperar vida
+        InformacionHormiga inf = datos.GetInfo();
+        inf.vidaActual = Mathf.Min(100, inf.vidaActual + 20);
+        datos.SetInfo(inf);
+
+        // Generar feromona según el tipo de comida
+        CrearFeromonaPorComida(info.Tipo, comidaObj.transform.position);
+
+        // Registrar evento
+        Debug.Log("Hormiga consumió comida tipo: " + info.Tipo);
+
+        // Eliminar comida
+        Destroy(comidaObj);
+    }
+
+    void CrearFeromonaPorComida(TipoComida tipo, Vector3 pos)
+    {
+        TipoHormonas hormona = TipoHormonas.Normal;
+
+        switch (tipo)
+        {
+            case TipoComida.Semilla:
+            case TipoComida.Azucar:
+            case TipoComida.Fruta:
+                hormona = TipoHormonas.Comida;
+                break;
+
+            case TipoComida.Insecto:
+            case TipoComida.Carne:
+                hormona = TipoHormonas.Peligro;
+                break;
+
+            case TipoComida.Hoja:
+                hormona = TipoHormonas.Normal;
+                break;
+        }
+
+        // Crear objeto feromona mediante tu prefab
+        GameObject prefab = Resources.Load<GameObject>("PreFab/PrefabHormona");
+        GameObject fer = Instantiate(prefab, pos, Quaternion.identity);
+
+        InformacionHormonas data = new InformacionHormonas
+        {
+            Tipo = hormona,
+            TiempoEvaporacion = 10
+        };
+
+        fer.GetComponent<DatosHormonas>().SetInfo(data);
+        fer.GetComponent<Hormona>().datos = data;
+    }
+
+
 }
