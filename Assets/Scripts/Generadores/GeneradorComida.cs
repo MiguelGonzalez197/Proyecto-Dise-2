@@ -9,7 +9,7 @@ public class GeneradorComida : MonoBehaviour
     [SerializeField] private Vector2 areaGeneracion = new Vector2(10, 10);
 
     [Header("Configuración de Atributos Aleatorios")]
-    [SerializeField] private Vector2 rangoTiempoDesaparicion = new Vector2(5f, 20f);
+    //[SerializeField] private Vector2 rangoTiempoDesaparicion = new Vector2(5f, 20f);
 
     [Header("Debug")]
     [SerializeField] private bool mostrarArea = true;
@@ -47,18 +47,35 @@ public class GeneradorComida : MonoBehaviour
             DatosComida datos = comidaObj.GetComponent<DatosComida>();
             if (datos != null)
             {
-                // Crear información aleatoria
+                //// Crear información aleatoria
+                //InformacionComida info = new InformacionComida
+                //{
+                //    Tipo = ObtenerTipoAleatorio(),
+                //    TiempoEnDesaparecer = Random.Range(rangoTiempoDesaparicion.x, rangoTiempoDesaparicion.y)
+                //};
+
+                //TipoComida tipo = ObtenerTipoAleatorio();
+
+                //InformacionComida info = new InformacionComida
+                //{
+                //    Tipo = tipo,
+                //    TiempoEnDesaparecer = ObtenerTiempoPorTipo(tipo)
+                //};
+                
+                TipoComida tipo = ObtenerTipoAleatorio();
+
                 InformacionComida info = new InformacionComida
                 {
-                    Tipo = ObtenerTipoAleatorio(),
-                    TiempoEnDesaparecer = Random.Range(rangoTiempoDesaparicion.x, rangoTiempoDesaparicion.y)
+                    Tipo = tipo,
+                    TiempoEnDesaparecer = -1f  // TODA LA COMIDA ES INFINITA
                 };
-
                 // Aplicar
                 datos.SetInfo(info);
-
+                // Destruir solo si tiene tiempo finito
+                //if (info.TiempoEnDesaparecer > 0)
+                //    Destroy(comidaObj, info.TiempoEnDesaparecer);
                 // Opcional: destruir tras cierto tiempo
-                Destroy(comidaObj, info.TiempoEnDesaparecer);
+                //Destroy(comidaObj, info.TiempoEnDesaparecer);
             }
             else
             {
@@ -82,5 +99,29 @@ public class GeneradorComida : MonoBehaviour
             Gizmos.DrawCube(transform.position, new Vector3(areaGeneracion.x, areaGeneracion.y, 0.1f));
         }
     }
+    //private float ObtenerTiempoPorTipo(TipoComida tipo)
+    //{
+    //    switch (tipo)
+    //    {
+    //        case TipoComida.Azucar:
+    //        case TipoComida.Semilla:
+    //            return -1f; // No desaparece nunca
+
+    //        case TipoComida.Hoja:
+    //            return Random.Range(18f, 25f);
+
+    //        case TipoComida.Fruta:
+    //            return Random.Range(12f, 18f);
+
+    //        case TipoComida.Insecto:
+    //            return Random.Range(20f, 30f);
+
+    //        case TipoComida.Carne:
+    //            return Random.Range(15f, 25f);
+
+    //        default:
+    //            return Random.Range(10f, 20f);
+    //    }
+    //}
 
 }
