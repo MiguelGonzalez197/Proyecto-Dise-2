@@ -2163,9 +2163,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabsComida:
   - {fileID: 3531288772318302567, guid: 343e9089ee5637e4796d3eb7e8695ee4, type: 3}
-  cantidadComida: 7
-  areaGeneracion: {x: 10, y: 10}
-  rangoTiempoDesaparicion: {x: 15, y: 30}
+  cantidadComida: 5
+  areaGeneracion: {x: 20, y: 10}
   mostrarArea: 1
   colorArea: {r: 0, g: 1, b: 0, a: 0.2}
 --- !u!4 &1280710079
