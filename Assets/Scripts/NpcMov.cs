@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class NpcMov : MonoBehaviour
 {
@@ -16,6 +18,10 @@ public class NpcMov : MonoBehaviour
     private float angulo = 0f;
     private DatosHormiga datos;
     private SpriteRenderer sr; // Para cambiar el color
+
+    // COOL-DOWN entre hormigas por ID
+    private Dictionary<int, float> ultimoEncuentroConHormiga = new Dictionary<int, float>();
+    private float tiempoCooldown = 1.5f; // segundos que deben esperar para reencontrarse
 
     void Awake()
     {
@@ -38,6 +44,10 @@ public class NpcMov : MonoBehaviour
 
         // Nuevo: detectar comida primero
         DetectarComida();
+
+        //Encuentro con hormigas
+        //DetectarHormiga();
+        DetectarEncuentroConHormiga();
 
         InformacionHormiga info = datos.GetInfo();
 
@@ -264,6 +274,28 @@ public class NpcMov : MonoBehaviour
             StartCoroutine(EntrarAlHormiguero());
         }
     }
+
+    void DetectarHormiga()
+    {
+        float radioEncuentro = 0.5f; // Distancia muy cercana
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, radioEncuentro);
+
+        foreach (var h in hits)
+        {
+            // Evitar detectarse a sí misma
+            if (h.gameObject == this.gameObject)
+                continue;
+
+            // Si es otra hormiga
+            DatosHormiga otraHormiga = h.GetComponent<DatosHormiga>();
+            if (otraHormiga != null)
+            {
+                StartCoroutine(InteraccionHormiga());
+                return;
+            }
+        }
+    }
+
     System.Collections.IEnumerator EntrarAlHormiguero()
     {
         dentroHormiguero = true;
@@ -285,6 +317,125 @@ public class NpcMov : MonoBehaviour
         angulo = Random.Range(0f, 360f);
     }
 
+    System.Collections.IEnumerator InteraccionHormiga()
+    {
+        // Pequeña pausa como si se olieran
+        float pausa = Random.Range(0.2f, 0.4f);
+        float nuevaDireccion = Random.Range(45f, 135f);
 
+        // Detener movimiento
+        float velocidadOriginal = velocidad;
+        velocidad = 0;
+
+        yield return new WaitForSeconds(pausa);
+
+        // Cambiar ángulo (hormiga gira)
+        angulo += nuevaDireccion * Mathf.Deg2Rad;
+
+        // Restaurar velocidad
+        velocidad = velocidadOriginal;
+    }
+
+    bool PuedeInteractuar(int idHormiga)
+    {
+        if (!ultimoEncuentroConHormiga.ContainsKey(idHormiga))
+            return true;
+
+        return Time.time - ultimoEncuentroConHormiga[idHormiga] >= tiempoCooldown;
+    }
+
+    void RegistrarEncuentro(int idHormiga)
+    {
+        ultimoEncuentroConHormiga[idHormiga] = Time.time;
+    }
+
+    void DetectarEncuentroConHormiga()
+    {
+        float radioEncuentro = 0.6f;
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, radioEncuentro);
+
+        foreach (var h in hits)
+        {
+            if (h.gameObject == this.gameObject)
+                continue;
+
+            DatosHormiga otro = h.GetComponent<DatosHormiga>();
+            if (otro == null) continue;
+
+            int idOtro = otro.GetInfo().ID;
+
+            // Si no puedo interactuar todavía
+            if (!PuedeInteractuar(idOtro))
+                continue;
+
+            RegistrarEncuentro(idOtro);
+
+            IntercambiarInformacion(otro);
+
+            // Pausa corta como si se olieran
+            StartCoroutine(PausaEncuentro());
+
+            SepararseDeOtraHormiga(h.transform);
+        }
+    }
+
+    IEnumerator PausaEncuentro()
+    {
+        float pausa = Random.Range(0.2f, 0.4f);
+
+        float velOriginal = velocidad;
+        velocidad = 0;
+
+        yield return new WaitForSeconds(pausa);
+
+        velocidad = velOriginal;
+    }
+
+    void IntercambiarInformacion(DatosHormiga otraHormiga)
+    {
+        InformacionHormiga miInfo = datos.GetInfo();
+        InformacionHormiga infoOtra = otraHormiga.GetInfo();
+
+        Debug.Log($"🐜 Hormiga {miInfo.ID} se encontró con Hormiga {infoOtra.ID}");
+
+        // 1. Compartir rumor de comida (si una lleva comida, la otra aprende)
+        if (llevandoComida)
+        {
+            Debug.Log($"🐜 Hormiga {miInfo.ID} informa de comida a hormiga {infoOtra.ID}");
+            // Aquí puedes guardar en la otra hormiga posición de comida
+        }
+
+        // 2. Compartir estado de vida (trofalaxis ligera)
+        if (miInfo.vidaActual < 40 && infoOtra.vidaActual > 60)
+        {
+            float intercambio = 5f;
+            miInfo.vidaActual += intercambio;
+            infoOtra.vidaActual -= intercambio;
+
+            datos.SetInfo(miInfo);
+            otraHormiga.SetInfo(infoOtra);
+
+            Debug.Log($"🤝 Trofalaxis: {infoOtra.ID} da vida a {miInfo.ID}");
+        }
+
+        // 3. Advertencia de peligro (si alguna olió una feromona de peligro)
+        // Puedes agregar una variable booleana "vioPeligro"
+        // Y la compartes aquí
+
+        // 4. Compartir rol
+        if (miInfo.rolActual != infoOtra.rolActual)
+        {
+            Debug.Log($"📡 {miInfo.ID} y {infoOtra.ID} comparten rol: {miInfo.rolActual} ↔ {infoOtra.rolActual}");
+            // Se podrían reasignar roles dinámicamente
+        }
+    }
+
+    void SepararseDeOtraHormiga(Transform otra)
+    {
+        Vector2 direccion = (transform.position - otra.position).normalized;
+        float fuerza = 1.2f;
+
+        transform.Translate(direccion * fuerza * Time.deltaTime, Space.World);
+    }
 
 }
